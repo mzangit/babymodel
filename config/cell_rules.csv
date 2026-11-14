@@ -1,0 +1,14 @@
+// CBHG v3 — tuned for earlier oligomer, plaques, and senescence (still monomer > oligomer > plaque clearance)
+inactivated_microglia,amyloid_monomer,increases,transition to activated_microglia,0.012,0.08,2,0
+inactivated_microglia,amyloid_oligomer,increases,transition to activated_microglia,0.015,0.05,2,0
+inactivated_microglia,contact with amyloid_plaque,increases,transition to activated_microglia,0.02,0.35,2,0
+inactivated_microglia,inflammatory_cytokine,increases,transition to activated_microglia,0.008,0.15,2,0
+inactivated_microglia,amyloid_monomer,increases,amyloid_monomer uptake,0.6,0.15,2,0
+inactivated_microglia,amyloid_oligomer,increases,amyloid_oligomer uptake,0.25,0.12,2,0
+activated_microglia,amyloid_monomer,increases,amyloid_monomer uptake,3.5,0.22,2,0
+activated_microglia,amyloid_oligomer,increases,amyloid_oligomer uptake,1.5,0.16,2,0
+activated_microglia,amyloid_oligomer,increases,migration speed,2.5,0.12,2,0
+activated_microglia,contact with amyloid_plaque,increases,phagocytose amyloid_plaque,0.00035,0.45,2,0
+activated_microglia,amyloid_oligomer,increases,transition to senescent_microglia,0.035,0.028,2,0
+activated_microglia,amyloid_monomer,increases,transition to senescent_microglia,0.012,0.08,2,0
+activated_microglia,inflammatory_cytokine,increases,transition to senescent_microglia,0.008,0.15,2,0
